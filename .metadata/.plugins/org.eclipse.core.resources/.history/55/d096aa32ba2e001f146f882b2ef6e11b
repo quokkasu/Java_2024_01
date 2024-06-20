@@ -1,0 +1,18 @@
+
+public class Ex02 {
+
+	public static void main(String args[]) {
+		
+		//40page
+		/*변수
+		 * 
+		//1) 자료형 변수이름;
+		int number;
+		
+		//2) 변수이름=초깃값 (변수를 초기화함)
+		 number = 10;
+		 
+	//3) 자료형 변수이름=초깃값 (변수를 초기화함) 
+		*/
+	}
+}
