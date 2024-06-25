@@ -11,6 +11,10 @@ public class ex02 {
 		
 		
 		Member member1 = new Member();
+		Member member2 = new Member();
+		Member member3 = new Member();
+		Member member4 = new Member();
+		Member member5 = new Member();
 		
 		System.out.println("member1 : " + member1);
 		System.out.println("member2 : " + member2);
@@ -20,14 +24,10 @@ public class ex02 {
 		
 		System.out.println("member1 == member2 : " +(member1 == member2));
 		
-		Member member6 = member5
+		Member member6 = member5;
 		System.out.println("member1 == member2 : " +(member1 == member2));
 		
 		
 		
 	}
-}
-
-class Student {
-	
 }

@@ -11,8 +11,8 @@ public class ex04 {
 		tico.company = "대우";
 		tico.type = "경차";
 		
-		pride.name ="프라이드"
-				pride.color = "블랙";
+		pride.name ="프라이드";
+		pride.color = "블랙";
 		pride.company = "기아";
 		pride.type = "소형";
 		
@@ -23,9 +23,9 @@ public class ex04 {
 		pride.back();
 
 		System.out.println(tico.name + "의 이름 : " + tico.name);
-		System.out.println(tico.name + "의 색상 : " + tico.name);
-		System.out.println(tico.name + "의 회사 : " + tico.name);
-		System.out.println(tico.name + "의 타입 : " + tico.name);
+		System.out.println(tico.color + "의 색상 : " + tico.color);
+		System.out.println(tico.company + "의 회사 : " + tico.company);
+		System.out.println(tico.type + "의 타입 : " + tico.type);
 		
 		System.out.println(tico.name + "의 이름 : " + tico.name);
 		System.out.println(tico.name + "의 색상 : " + tico.name);
@@ -47,6 +47,7 @@ public class ex04 {
 class Car{
 	//클래스 = 멤버변서 + 멤버메소드
 	//필드 (멤버변수)
+	String name;
 	String color;
 	String company;
 	String type;
